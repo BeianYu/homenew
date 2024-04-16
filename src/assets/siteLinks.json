@@ -2,12 +2,22 @@
   {
     "icon": "Blog",
     "name": "博客",
-    "link": "https://blog.imsyy.top/"
+    "link": "https://yuai.cloud/"
+  },
+  {
+    "icon": "Book",
+    "name": "导航页",
+    "link": "https://web.imsyy.top/"
   },
   {
     "icon": "Cloud",
     "name": "网盘",
-    "link": "https://pan.imsyy.top/"
+    "link": "https://eva.yuai.cloud/"
+  },
+  {
+    "icon": "Compass",
+    "name": "首页",
+    "link": "https://home.yuai.cloud/"
   },
   {
     "icon": "CompactDisc",
@@ -15,23 +25,13 @@
     "link": "https://music.imsyy.top/"
   },
   {
-    "icon": "Compass",
-    "name": "起始页",
-    "link": "https://nav.imsyy.top/"
-  },
-  {
-    "icon": "Book",
-    "name": "网址集",
-    "link": "https://web.imsyy.top/"
-  },
-  {
-    "icon": "Fire",
-    "name": "今日热榜",
-    "link": "https://hot.imsyy.top/"
-  },
-  {
     "icon": "LaptopCode",
     "name": "站点监测",
     "link": "https://status.imsyy.top/"
+  },
+  {
+    "icon": "Fire",
+    "name": "流量监控",
+    "link": "https://umami.yuai.cloud/"
   }
 ]
