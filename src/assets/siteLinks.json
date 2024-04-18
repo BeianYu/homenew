@@ -6,18 +6,18 @@
   },
   {
     "icon": "Book",
-    "name": "导航页",
+    "name": "AI",
+    "link": "https://chat.yuai.cloud/"
+  },
+  {
+    "icon": "Compass",
+    "name": "导航",
     "link": "https://go.itab.link/"
   },
   {
     "icon": "Cloud",
     "name": "网盘",
-    "link": "https://eva.yuai.fun/"
-  },
-  {
-    "icon": "Compass",
-    "name": "首页",
-    "link": "https://home.yuai.cloud/"
+    "link": "https://eva.yuai.fun/admin"
   },
   {
     "icon": "CompactDisc",
@@ -25,13 +25,13 @@
     "link": "https://music.yuai.cloud/"
   },
   {
-    "icon": "LaptopCode",
-    "name": "站点监测",
-    "link": "https://status.yuai.cloud/"
+    "icon": "Fire",
+    "name": "流量",
+    "link": "https://umami.yuai.cloud/"
   },
   {
-    "icon": "Fire",
-    "name": "流量监控",
-    "link": "https://umami.yuai.cloud/"
+    "icon": "LaptopCode",
+    "name": "站点",
+    "link": "https://status.yuai.cloud/"
   }
 ]
