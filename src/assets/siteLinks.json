@@ -1,13 +1,13 @@
 [
   {
     "icon": "Blog",
-    "name": "博客",
-    "link": "https://yuai.cloud/"
+    "name": "守护",
+    "link": "https://yuai.ink/"
   },
   {
-    "icon": "Book",
-    "name": "AI",
-    "link": "https://chat.yuai.cloud/"
+    "icon": "Cloud",
+    "name": "博客",
+    "link": "https://yuai.cloud"
   },
   {
     "icon": "Compass",
@@ -15,14 +15,19 @@
     "link": "https://go.itab.link/"
   },
   {
-    "icon": "Cloud",
-    "name": "网盘",
-    "link": "https://eva.yuai.fun/admin"
+    "icon": "Book",
+    "name": "笔记",
+    "link": "https://Memos.yuai.cloud/"
   },
   {
-    "icon": "CompactDisc",
-    "name": "音乐",
-    "link": "https://music.yuai.cloud/"
+    "icon": "BookReader",
+    "name": "阅读",
+    "link": "https://read.yuai.cloud/"
+  },
+  {
+    "icon": "Amilia",
+    "name": "智能",
+    "link": "https://chat.yuai.cloud/"
   },
   {
     "icon": "Fire",
