@@ -38,5 +38,10 @@
     "icon": "LaptopCode",
     "name": "站点",
     "link": "https://status.yuai.cloud/"
+  },
+  {
+    "icon": "CompactDisc",
+    "name": "音乐",
+    "link": "https://music.yuai.cloud/"
   }
 ]
