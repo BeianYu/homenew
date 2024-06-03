@@ -12,12 +12,17 @@
   {
     "icon": "Compass",
     "name": "导航",
-    "link": "https://go.itab.link/"
+    "link": "https://yuai.uk/"
   },
   {
     "icon": "Book",
     "name": "笔记",
     "link": "https://Memos.yuai.cloud/"
+  },
+  {
+    "icon": "LaptopCode",
+    "name": "站点",
+    "link": "https://status.yuai.cloud/"
   },
   {
     "icon": "BookReader",
@@ -30,15 +35,21 @@
     "link": "https://chat.yuai.cloud/"
   },
   {
+    "icon": "CaretSquareRight",
+    "name": "电影",
+    "link": "https://jellyfin.yuai.uk/"
+  },
+  {
+    "icon": "file",
+    "name": "网盘",
+    "link": "https://alist.yuai.uk/"
+  },
+  {
     "icon": "Fire",
     "name": "流量",
     "link": "https://umami.yuai.cloud/"
   },
-  {
-    "icon": "LaptopCode",
-    "name": "站点",
-    "link": "https://status.yuai.cloud/"
-  },
+
   {
     "icon": "CompactDisc",
     "name": "音乐",
