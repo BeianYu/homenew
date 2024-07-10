@@ -37,12 +37,12 @@
   {
     "icon": "CaretSquareRight",
     "name": "电影",
-    "link": "https://jellyfin.yuai.uk/"
+    "link": "https://jellyfin.yuai.cloud/"
   },
   {
     "icon": "File",
     "name": "网盘",
-    "link": "https://alist.yuai.uk/"
+    "link": "https://alist.yuai.cloud/"
   },
   {
     "icon": "Fire",
