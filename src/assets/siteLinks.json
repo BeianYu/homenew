@@ -20,14 +20,14 @@
     "link": "https://Memos.yuai.cloud/"
   },
   {
+    "icon": "Images",
+    "name": "图库",
+    "link": "https://pic.yuai.cloud/"
+  },
+  {
     "icon": "LaptopCode",
     "name": "站点",
     "link": "https://status.yuai.cloud/"
-  },
-  {
-    "icon": "BookReader",
-    "name": "阅读",
-    "link": "https://read.yuai.cloud/"
   },
   {
     "icon": "Amilia",
@@ -35,14 +35,9 @@
     "link": "https://chat.yuai.cloud/"
   },
   {
-    "icon": "CaretSquareRight",
-    "name": "电影",
-    "link": "https://jellyfin.yuai.cloud/"
-  },
-  {
-    "icon": "File",
-    "name": "网盘",
-    "link": "https://alist.yuai.cloud/"
+    "icon": "BookReader",
+    "name": "阅读",
+    "link": "https://read.yuai.cloud/"
   },
   {
     "icon": "Fire",
@@ -50,8 +45,18 @@
     "link": "https://umami.yuai.cloud/"
   },
   {
-    "icon": "CompactDisc",
-    "name": "音乐",
-    "link": "https://music.yuai.cloud/"
+    "icon": "Download",
+    "name": "下载",
+    "link": "https://bt.yuai.cloud/"
+  },
+  {
+    "icon": "CaretSquareRight",
+    "name": "电影",
+    "link": "https://jellyfin.yuai.cloud/"
+  },
+  {
+    "icon": "PencilAlt",
+    "name": "漫画",
+    "link": "https://komga.yuai.cloud/"
   }
 ]
