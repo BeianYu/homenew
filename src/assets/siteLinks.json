@@ -10,39 +10,9 @@
     "link": "https://yuai.cloud"
   },
   {
-    "icon": "Compass",
-    "name": "导航",
-    "link": "https://go.itab.link/"
-  },
-  {
     "icon": "Book",
     "name": "笔记",
     "link": "https://Memos.yuai.cloud/"
-  },
-  {
-    "icon": "Images",
-    "name": "图库",
-    "link": "https://pic.yuai.cloud/"
-  },
-  {
-    "icon": "LaptopCode",
-    "name": "站点",
-    "link": "https://status.yuai.cloud/"
-  },
-  {
-    "icon": "Amilia",
-    "name": "智能",
-    "link": "https://chat.yuai.cloud/"
-  },
-  {
-    "icon": "BookReader",
-    "name": "阅读",
-    "link": "https://read.yuai.cloud/"
-  },
-  {
-    "icon": "Fire",
-    "name": "流量",
-    "link": "https://umami.yuai.cloud/"
   },
   {
     "icon": "Download",
@@ -58,5 +28,20 @@
     "icon": "PencilAlt",
     "name": "漫画",
     "link": "https://komga.yuai.cloud/"
+  },
+  {
+    "icon": "LaptopCode",
+    "name": "站点",
+    "link": "https://status.yuai.cloud/"
+  },
+  {
+    "icon": "Fire",
+    "name": "流量",
+    "link": "https://umami.yuai.cloud/"
+  },
+  {
+    "icon": "Compass",
+    "name": "导航",
+    "link": "https://go.itab.link/"
   }
 ]
