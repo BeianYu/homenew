@@ -2,42 +2,42 @@
   {
     "icon": "Blog",
     "name": "博客",
-    "link": "https://yuai.ink/"
+    "link": "https://yu9.hk/"
   },
   {
     "icon": "Cloud",
     "name": "空间",
-    "link": "https://yuai.cloud"
+    "link": "https://cloud.yu9.hk"
   },
   {
     "icon": "Book",
     "name": "笔记",
-    "link": "https://Memos.yuai.cloud/"
+    "link": "https://memos.yu9.hk/"
   },
   {
     "icon": "Download",
     "name": "下载",
-    "link": "https://bt.yuai.cloud/"
+    "link": "https://bt.yu9.hk/"
   },
   {
     "icon": "CaretSquareRight",
     "name": "电影",
-    "link": "https://jellyfin.yuai.cloud/"
+    "link": "https://jellyfin.yu9.hk/"
   },
   {
     "icon": "PencilAlt",
     "name": "漫画",
-    "link": "https://komga.yuai.cloud/"
+    "link": "https://komga.yu9.hk/"
   },
   {
     "icon": "LaptopCode",
     "name": "站点",
-    "link": "https://status.yuai.cloud/"
+    "link": "https://status.yu9.hk/"
   },
   {
     "icon": "Fire",
     "name": "流量",
-    "link": "https://umami.yuai.cloud/"
+    "link": "https://umami.yu9.hk/"
   },
   {
     "icon": "Compass",

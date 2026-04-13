@@ -50,26 +50,48 @@ export const getHitokoto = async () => {
 };
 
 /**
- * 天气
+ * 天气（Open-Meteo，无需 Key）
  */
 
-// 获取高德地理位置信息
-export const getAdcode = async (key) => {
-  const res = await fetch(`https://restapi.amap.com/v3/ip?key=${key}`);
+// WMO 天气代码转中文
+const wmoToWeather = (code) => {
+  const map = {
+    0: "晴", 1: "晴", 2: "多云", 3: "阴",
+    45: "雾", 48: "雾",
+    51: "小雨", 53: "中雨", 55: "大雨",
+    61: "小雨", 63: "中雨", 65: "大雨",
+    71: "小雪", 73: "中雪", 75: "大雪",
+    77: "冰粒",
+    80: "阵雨", 81: "阵雨", 82: "强阵雨",
+    85: "阵雪", 86: "强阵雪",
+    95: "雷暴", 96: "雷暴冰雹", 99: "强雷暴冰雹",
+  };
+  return map[code] ?? "未知";
+};
+
+// 风速（m/s）转蒲福风级
+const msToBeaufort = (ms) => {
+  const scale = [0.3, 1.6, 3.4, 5.5, 8.0, 10.8, 13.9, 17.2, 20.8, 24.5, 28.5, 32.7];
+  return scale.findIndex((v) => ms < v);
+};
+
+// 风向角度转中文
+const degToWindDir = (deg) => {
+  const dirs = ["北", "东北", "东", "东南", "南", "西南", "西", "西北"];
+  return dirs[Math.round(deg / 45) % 8];
+};
+
+// 通过 IP 获取城市和坐标（ip-api.com，免费无需 Key）
+export const getIpLocation = async () => {
+  const res = await fetch("https://ip-api.com/json/?fields=city,regionName,lat,lon&lang=zh-CN");
   return await res.json();
 };
 
-// 获取高德地理天气信息
-export const getWeather = async (key, city) => {
+// 通过 Open-Meteo 获取天气数据
+export const getOpenMeteoWeather = async (lat, lon) => {
   const res = await fetch(
-    `https://restapi.amap.com/v3/weather/weatherInfo?key=${key}&city=${city}`,
+    `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}` +
+    `&current=temperature_2m,weather_code,wind_speed_10m,wind_direction_10m`,
   );
-  return await res.json();
-};
-
-// 获取教书先生天气 API
-// https://api.oioweb.cn/doc/weather/GetWeather
-export const getOtherWeather = async () => {
-  const res = await fetch("https://api.oioweb.cn/api/weather/GetWeather");
   return await res.json();
 };

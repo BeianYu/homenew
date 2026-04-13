@@ -4,7 +4,7 @@
       <div v-if="!store.playerState || !store.playerLrcShow" class="power">
         <span>
           Copyright&nbsp;&copy;
-          {{ fullYear }}
+          {{ startYear === fullYear ? fullYear : `${startYear} - ${fullYear}` }}
           <a :href="siteUrl">{{ siteAnthor }}</a>
         </span>
         <!-- 以下信息请不要修改哦 -->
@@ -34,6 +34,9 @@ import config from "@/../package.json";
 
 const store = mainStore();
 const fullYear = new Date().getFullYear();
+const startYear = import.meta.env.VITE_SITE_START
+  ? new Date(import.meta.env.VITE_SITE_START).getFullYear()
+  : fullYear;
 
 // 加载配置数据
 const siteStartDate = ref(import.meta.env.VITE_SITE_START);
