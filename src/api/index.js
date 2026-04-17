@@ -81,10 +81,16 @@ const degToWindDir = (deg) => {
   return dirs[Math.round(deg / 45) % 8];
 };
 
-// 通过 IP 获取城市和坐标（ip-api.com，免费无需 Key）
+// 通过 IP 获取城市和坐标（ipapi.co，免费无需 Key，支持 HTTPS）
 export const getIpLocation = async () => {
-  const res = await fetch("https://ip-api.com/json/?fields=city,regionName,lat,lon&lang=zh-CN");
-  return await res.json();
+  const res = await fetch("https://ipapi.co/json/");
+  const data = await res.json();
+  return {
+    city: data.city,
+    regionName: data.region,
+    lat: data.latitude,
+    lon: data.longitude,
+  };
 };
 
 // 通过 Open-Meteo 获取天气数据
